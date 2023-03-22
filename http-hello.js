@@ -22,11 +22,11 @@ function parseMethods(string) {
 
 function printHelp() {
     let file = process.argv[1];
-    console.log(typeof file)
     if (file.indexOf(' ') > -1) {
         file = `"${file}"`;
     }
     console.log(`Usage: ${file} [options]
+
 Options:
   -h <host>
         Listen host.
