@@ -2,7 +2,7 @@
   "name": "hello-http",
   "version": "1.0.0",
   "description": "Build an HTTP server based on the standard library and respond to the request message.",
-  "bin": "http-hello.js",
+  "bin": "hello-http.js",
   "keywords": ["hello-http", "http", "http-server"],
   "author": "moeshin",
   "license": "MIT"
